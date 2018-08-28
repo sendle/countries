@@ -31,7 +31,7 @@ defmodule CountriesTest do
 
   test "get all countries" do
     countries = Countries.all
-    assert Enum.count(countries) == 250
+    assert Enum.count(countries) == 251
   end
 
   test "get country subdivisions" do
